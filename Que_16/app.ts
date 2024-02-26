@@ -35,5 +35,7 @@ guestList.forEach((Element =>
     console.log(`Hello! ${Element} how are you? I would like to invite you on dinner, looking forward to your response`)
 ));
 
+export{guestList};
+
 
 

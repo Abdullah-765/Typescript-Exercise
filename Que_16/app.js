@@ -1,5 +1,9 @@
+"use strict";
 // More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.guestList = void 0;
 var guestList = ["Ronaldo", "Babar Azam", "Keanu Reeves", "Khabib"];
+exports.guestList = guestList;
 guestList.forEach((function (Element) {
     return console.log("Hello! ".concat(Element, " how are you? I would like to invite you on dinner, looking forward to your response"));
 }));
